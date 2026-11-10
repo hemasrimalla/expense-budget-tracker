@@ -1,0 +1,748 @@
+=================================================================
+       PERSONAL EXPENSE & BUDGET TRACKER (v1.0)
+       Take control of your finances, one rupee at a time
+=================================================================
+Loaded 17 expenses and 2 monthly budget configurations.
+
+
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+=================================================================
+                      All Recorded Expenses                      
+=================================================================
++----+------------+------------+---------------+-----------------------------------+
+| ID |    Date    |     Amount | Category      | Description                       |
++----+------------+------------+---------------+-----------------------------------+
+| 1  | 2026-10-02 | ₹12,000.00 | Rent          | October Apartment Rent            |
+| 2  | 2026-10-04 |  ₹1,450.00 | Bills         | Electricity & Water Bill          |
+| 3  | 2026-10-07 |    ₹820.00 | Food          | Weekly grocery shopping           |
+| 4  | 2026-10-12 |    ₹350.00 | Transport     | Metro card recharge               |
+| 5  | 2026-10-15 |  ₹2,400.00 | Shopping      | Winter jacket from sale           |
+| 6  | 2026-10-18 |    ₹650.00 | Entertainment | Movie tickets with friends        |
+| 7  | 2026-10-22 |  ₹1,200.00 | Health        | Dental routine checkup            |
+| 8  | 2026-10-25 |  ₹5,400.00 | Food          | Family dinner at restaurant       |
+| 9  | 2026-10-29 |  ₹1,880.00 | Bills         | Broadband internet plan           |
+| 10 | 2026-11-01 | ₹12,000.00 | Rent          | November Apartment Rent           |
+| 11 | 2026-11-02 |  ₹1,550.00 | Bills         | Electricity bill payment          |
+| 12 | 2026-11-04 |  ₹2,450.00 | Food          | Monthly pantry grocery refill     |
+| 13 | 2026-11-05 |    ₹420.00 | Transport     | Cab ride to railway station       |
+| 14 | 2026-11-07 |  ₹3,800.00 | Shopping      | Ergonomic desk chair              |
+| 15 | 2026-11-08 |    ₹950.00 | Health        | Vitamins & medical supplies       |
+| 16 | 2026-11-09 |  ₹2,850.00 | Food          | Weekend dining out                |
+| 17 | 2026-11-10 |  ₹1,480.00 | Other         | Annual cloud storage subscription |
++----+------------+------------+---------------+-----------------------------------+
+ Total Expenses: 17 | Total Spent: ₹51,650.00
+
+
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+               ADD NEW EXPENSE
+==================================================
+Enter expense date (YYYY-MM-DD) [default: 2026-11-10]: Enter expense amount (₹): 
+--- Select Category ---
+  [1] Bills
+  [2] Entertainment
+  [3] Food
+  [4] Health
+  [5] Other
+  [6] Rent
+  [7] Shopping
+  [8] Transport
+  [9] + Add New Custom Category
+Enter choice: Enter description / note: 
+[OK] Expense ID #18 added successfully!
++----+------------+---------+----------+----------------------+
+| ID |    Date    |  Amount | Category | Description          |
++----+------------+---------+----------+----------------------+
+| 18 | 2026-11-10 | ₹600.00 | Bills    | Client Lunch Meeting |
++----+------------+---------+----------+----------------------+
+
+>>> [BUDGET WARNING] Overall budget for 2026-11 reached 87.0%!
+    Spent: ₹26,100.00 / Budget: ₹30,000.00
+    Remaining budget: ₹3,900.00
+>>> [CATEGORY ALERT] Budget for 'Bills' in 2026-11 EXCEEDED (107.5%)!
+
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+=================================================================
+                      All Recorded Expenses                      
+=================================================================
++----+------------+------------+---------------+-----------------------------------+
+| ID |    Date    |     Amount | Category      | Description                       |
++----+------------+------------+---------------+-----------------------------------+
+| 1  | 2026-10-02 | ₹12,000.00 | Rent          | October Apartment Rent            |
+| 2  | 2026-10-04 |  ₹1,450.00 | Bills         | Electricity & Water Bill          |
+| 3  | 2026-10-07 |    ₹820.00 | Food          | Weekly grocery shopping           |
+| 4  | 2026-10-12 |    ₹350.00 | Transport     | Metro card recharge               |
+| 5  | 2026-10-15 |  ₹2,400.00 | Shopping      | Winter jacket from sale           |
+| 6  | 2026-10-18 |    ₹650.00 | Entertainment | Movie tickets with friends        |
+| 7  | 2026-10-22 |  ₹1,200.00 | Health        | Dental routine checkup            |
+| 8  | 2026-10-25 |  ₹5,400.00 | Food          | Family dinner at restaurant       |
+| 9  | 2026-10-29 |  ₹1,880.00 | Bills         | Broadband internet plan           |
+| 10 | 2026-11-01 | ₹12,000.00 | Rent          | November Apartment Rent           |
+| 11 | 2026-11-02 |  ₹1,550.00 | Bills         | Electricity bill payment          |
+| 12 | 2026-11-04 |  ₹2,450.00 | Food          | Monthly pantry grocery refill     |
+| 13 | 2026-11-05 |    ₹420.00 | Transport     | Cab ride to railway station       |
+| 14 | 2026-11-07 |  ₹3,800.00 | Shopping      | Ergonomic desk chair              |
+| 15 | 2026-11-08 |    ₹950.00 | Health        | Vitamins & medical supplies       |
+| 16 | 2026-11-09 |  ₹2,850.00 | Food          | Weekend dining out                |
+| 17 | 2026-11-10 |  ₹1,480.00 | Other         | Annual cloud storage subscription |
+| 18 | 2026-11-10 |    ₹600.00 | Bills         | Client Lunch Meeting              |
++----+------------+------------+---------------+-----------------------------------+
+ Total Expenses: 18 | Total Spent: ₹52,250.00
+
+
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+                EDIT EXPENSE
+==================================================
+Enter Expense ID to edit (or 'c' to cancel): 
+Current Expense Details:
++----+------------+---------+----------+----------------------+
+| ID |    Date    |  Amount | Category | Description          |
++----+------------+---------+----------+----------------------+
+| 18 | 2026-11-10 | ₹600.00 | Bills    | Client Lunch Meeting |
++----+------------+---------+----------+----------------------+
+Press Enter to keep current value, or type new value:
+
+Enter new date (YYYY-MM-DD) [default: 2026-11-10]: Enter new amount (₹) [default: ₹600.00]: 
+Current category is: 'Bills'
+Do you want to change the category? [y/N]: Enter new description [default: Client Lunch Meeting]: 
+[OK] Expense ID #18 updated successfully!
++----+------------+---------+----------+-----------------------+
+| ID |    Date    |  Amount | Category | Description           |
++----+------------+---------+----------+-----------------------+
+| 18 | 2026-11-10 | ₹650.00 | Bills    | Client Lunch & Coffee |
++----+------------+---------+----------+-----------------------+
+
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: 
+Select Category:
+  [1] Bills
+  [2] Entertainment
+  [3] Food
+  [4] Health
+  [5] Other
+  [6] Rent
+  [7] Shopping
+  [8] Transport
+Choose category: 
+=================================================================
+                   Expenses in Category: Bills                   
+=================================================================
++----+------------+-----------+----------+--------------------------+
+| ID |    Date    |    Amount | Category | Description              |
++----+------------+-----------+----------+--------------------------+
+| 2  | 2026-10-04 | ₹1,450.00 | Bills    | Electricity & Water Bill |
+| 9  | 2026-10-29 | ₹1,880.00 | Bills    | Broadband internet plan  |
+| 11 | 2026-11-02 | ₹1,550.00 | Bills    | Electricity bill payment |
+| 18 | 2026-11-10 |   ₹650.00 | Bills    | Client Lunch & Coffee    |
++----+------------+-----------+----------+--------------------------+
+ Total Expenses: 4 | Total Spent: ₹5,530.00
+
+
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: Enter month (YYYY-MM) [default: 2026-11]: 
+=================================================================
+                   Expenses for Month: 2026-11                   
+=================================================================
++----+------------+------------+-----------+-----------------------------------+
+| ID |    Date    |     Amount | Category  | Description                       |
++----+------------+------------+-----------+-----------------------------------+
+| 10 | 2026-11-01 | ₹12,000.00 | Rent      | November Apartment Rent           |
+| 11 | 2026-11-02 |  ₹1,550.00 | Bills     | Electricity bill payment          |
+| 12 | 2026-11-04 |  ₹2,450.00 | Food      | Monthly pantry grocery refill     |
+| 13 | 2026-11-05 |    ₹420.00 | Transport | Cab ride to railway station       |
+| 14 | 2026-11-07 |  ₹3,800.00 | Shopping  | Ergonomic desk chair              |
+| 15 | 2026-11-08 |    ₹950.00 | Health    | Vitamins & medical supplies       |
+| 16 | 2026-11-09 |  ₹2,850.00 | Food      | Weekend dining out                |
+| 17 | 2026-11-10 |  ₹1,480.00 | Other     | Annual cloud storage subscription |
+| 18 | 2026-11-10 |    ₹650.00 | Bills     | Client Lunch & Coffee             |
++----+------------+------------+-----------+-----------------------------------+
+ Total Expenses: 9 | Total Spent: ₹26,150.00
+
+
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: 
+Enter Date Range:
+Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD) [default: 2026-11-10]: 
+=================================================================
+              Expenses from 2026-11-01 to 2026-11-08             
+=================================================================
++----+------------+------------+-----------+-------------------------------+
+| ID |    Date    |     Amount | Category  | Description                   |
++----+------------+------------+-----------+-------------------------------+
+| 10 | 2026-11-01 | ₹12,000.00 | Rent      | November Apartment Rent       |
+| 11 | 2026-11-02 |  ₹1,550.00 | Bills     | Electricity bill payment      |
+| 12 | 2026-11-04 |  ₹2,450.00 | Food      | Monthly pantry grocery refill |
+| 13 | 2026-11-05 |    ₹420.00 | Transport | Cab ride to railway station   |
+| 14 | 2026-11-07 |  ₹3,800.00 | Shopping  | Ergonomic desk chair          |
+| 15 | 2026-11-08 |    ₹950.00 | Health    | Vitamins & medical supplies   |
++----+------------+------------+-----------+-------------------------------+
+ Total Expenses: 6 | Total Spent: ₹21,170.00
+
+
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: 
+Enter Amount Range:
+Enter minimum amount (₹) [default: ₹0.00]: Enter maximum amount (₹): 
+=================================================================
+             Expenses between ₹1,000.00 and ₹4,000.00            
+=================================================================
++----+------------+-----------+----------+-----------------------------------+
+| ID |    Date    |    Amount | Category | Description                       |
++----+------------+-----------+----------+-----------------------------------+
+| 2  | 2026-10-04 | ₹1,450.00 | Bills    | Electricity & Water Bill          |
+| 5  | 2026-10-15 | ₹2,400.00 | Shopping | Winter jacket from sale           |
+| 7  | 2026-10-22 | ₹1,200.00 | Health   | Dental routine checkup            |
+| 9  | 2026-10-29 | ₹1,880.00 | Bills    | Broadband internet plan           |
+| 11 | 2026-11-02 | ₹1,550.00 | Bills    | Electricity bill payment          |
+| 12 | 2026-11-04 | ₹2,450.00 | Food     | Monthly pantry grocery refill     |
+| 14 | 2026-11-07 | ₹3,800.00 | Shopping | Ergonomic desk chair              |
+| 16 | 2026-11-09 | ₹2,850.00 | Food     | Weekend dining out                |
+| 17 | 2026-11-10 | ₹1,480.00 | Other    | Annual cloud storage subscription |
++----+------------+-----------+----------+-----------------------------------+
+ Total Expenses: 9 | Total Spent: ₹19,060.00
+
+
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: Enter search keyword: 
+=================================================================
+                    Search Results for 'bill'                    
+=================================================================
++----+------------+-----------+----------+--------------------------+
+| ID |    Date    |    Amount | Category | Description              |
++----+------------+-----------+----------+--------------------------+
+| 2  | 2026-10-04 | ₹1,450.00 | Bills    | Electricity & Water Bill |
+| 11 | 2026-11-02 | ₹1,550.00 | Bills    | Electricity bill payment |
++----+------------+-----------+----------+--------------------------+
+ Total Expenses: 2 | Total Spent: ₹3,000.00
+
+
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: 
+Sort by:
+  [1] Date (Newest first)
+  [2] Date (Oldest first)
+  [3] Amount (Highest first)
+  [4] Amount (Lowest first)
+Choose sort option [1-4]: 
+=================================================================
+            Expenses Sorted by Amount (Highest First)            
+=================================================================
++----+------------+------------+---------------+-----------------------------------+
+| ID |    Date    |     Amount | Category      | Description                       |
++----+------------+------------+---------------+-----------------------------------+
+| 1  | 2026-10-02 | ₹12,000.00 | Rent          | October Apartment Rent            |
+| 10 | 2026-11-01 | ₹12,000.00 | Rent          | November Apartment Rent           |
+| 8  | 2026-10-25 |  ₹5,400.00 | Food          | Family dinner at restaurant       |
+| 14 | 2026-11-07 |  ₹3,800.00 | Shopping      | Ergonomic desk chair              |
+| 16 | 2026-11-09 |  ₹2,850.00 | Food          | Weekend dining out                |
+| 12 | 2026-11-04 |  ₹2,450.00 | Food          | Monthly pantry grocery refill     |
+| 5  | 2026-10-15 |  ₹2,400.00 | Shopping      | Winter jacket from sale           |
+| 9  | 2026-10-29 |  ₹1,880.00 | Bills         | Broadband internet plan           |
+| 11 | 2026-11-02 |  ₹1,550.00 | Bills         | Electricity bill payment          |
+| 17 | 2026-11-10 |  ₹1,480.00 | Other         | Annual cloud storage subscription |
+| 2  | 2026-10-04 |  ₹1,450.00 | Bills         | Electricity & Water Bill          |
+| 7  | 2026-10-22 |  ₹1,200.00 | Health        | Dental routine checkup            |
+| 15 | 2026-11-08 |    ₹950.00 | Health        | Vitamins & medical supplies       |
+| 3  | 2026-10-07 |    ₹820.00 | Food          | Weekly grocery shopping           |
+| 6  | 2026-10-18 |    ₹650.00 | Entertainment | Movie tickets with friends        |
+| 18 | 2026-11-10 |    ₹650.00 | Bills         | Client Lunch & Coffee             |
+| 13 | 2026-11-05 |    ₹420.00 | Transport     | Cab ride to railway station       |
+| 4  | 2026-10-12 |    ₹350.00 | Transport     | Metro card recharge               |
++----+------------+------------+---------------+-----------------------------------+
+ Total Expenses: 18 | Total Spent: ₹52,300.00
+
+
+==================================================
+           SEARCH & FILTER EXPENSES
+==================================================
+  [1] Filter by Category
+  [2] Filter by Month (YYYY-MM)
+  [3] Filter by Date Range
+  [4] Filter by Amount Range
+  [5] Search Description by Keyword
+  [6] Sort All Expenses (by Date or Amount)
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-6]: 
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+               DELETE EXPENSE
+==================================================
+Enter Expense ID to delete (or 'c' to cancel): 
+Target Expense to Delete:
++----+------------+---------+----------+-----------------------+
+| ID |    Date    |  Amount | Category | Description           |
++----+------------+---------+----------+-----------------------+
+| 18 | 2026-11-10 | ₹650.00 | Bills    | Client Lunch & Coffee |
++----+------------+---------+----------+-----------------------+
+Are you sure you want to permanently delete Expense #18? [y/N]: 
+[OK] Expense #18 deleted successfully.
+
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+                 BUDGET MANAGER
+==================================================
+  [1] Check Monthly Budget Status & Warnings
+  [2] Set / Update Total Monthly Budget
+  [3] Set / Update Category-Specific Budget
+  [4] View All Configured Budgets
+  [5] Delete a Month's Budget
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-5]: Enter month to check budget (YYYY-MM) [default: 2026-11]: 
+=================================================================
+                        BUDGET STATUS FOR 2026-11                
+=================================================================
+
+Total Budget : ₹30,000.00
+Total Spent  : ₹25,500.00
+Remaining    : ₹4,500.00
+Utilization  : [█████████████████░░░] 85.0%
+Status       : [!] WARNING: 80%+ Utilized (85.0% of budget consumed)
+
+Category-wise Budget Breakdown:
++-----------+------------+------------+-----------+--------+-----------+
+| Category  |     Budget |      Spent | Remaining | Used % |   Status  |
++-----------+------------+------------+-----------+--------+-----------+
+| Bills     |  ₹2,000.00 |  ₹1,550.00 |   ₹450.00 |  77.5% |     OK    |
+| Food      |  ₹6,000.00 |  ₹5,300.00 |   ₹700.00 |  88.3% |  WARNING  |
+| Health    |  No Budget |    ₹950.00 |         - |      - | Untracked |
+| Other     |  No Budget |  ₹1,480.00 |         - |      - | Untracked |
+| Rent      | ₹12,000.00 | ₹12,000.00 |     ₹0.00 | 100.0% |  WARNING  |
+| Shopping  |  ₹3,500.00 |  ₹3,800.00 |  -₹300.00 | 108.6% |  EXCEEDED |
+| Transport |  ₹1,000.00 |    ₹420.00 |   ₹580.00 |  42.0% |     OK    |
++-----------+------------+------------+-----------+--------+-----------+
+
+
+==================================================
+                 BUDGET MANAGER
+==================================================
+  [1] Check Monthly Budget Status & Warnings
+  [2] Set / Update Total Monthly Budget
+  [3] Set / Update Category-Specific Budget
+  [4] View All Configured Budgets
+  [5] Delete a Month's Budget
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-5]: Enter month to check budget (YYYY-MM) [default: 2026-11]: 
+=================================================================
+                        BUDGET STATUS FOR 2026-10                
+=================================================================
+
+Total Budget : ₹24,000.00
+Total Spent  : ₹26,150.00
+Remaining    : -₹2,150.00
+Utilization  : [████████████████████] 109.0%
+Status       : [!] EXCEEDED by ₹2,150.00 (9.0% over budget)
+
+Category-wise Budget Breakdown:
++---------------+------------+------------+-----------+--------+-----------+
+| Category      |     Budget |      Spent | Remaining | Used % |   Status  |
++---------------+------------+------------+-----------+--------+-----------+
+| Bills         |  ₹3,000.00 |  ₹3,330.00 |  -₹330.00 | 111.0% |  EXCEEDED |
+| Entertainment |  No Budget |    ₹650.00 |         - |      - | Untracked |
+| Food          |  ₹6,000.00 |  ₹6,220.00 |  -₹220.00 | 103.7% |  EXCEEDED |
+| Health        |  No Budget |  ₹1,200.00 |         - |      - | Untracked |
+| Rent          | ₹12,000.00 | ₹12,000.00 |     ₹0.00 | 100.0% |  WARNING  |
+| Shopping      |  ₹2,000.00 |  ₹2,400.00 |  -₹400.00 | 120.0% |  EXCEEDED |
+| Transport     |  ₹1,000.00 |    ₹350.00 |   ₹650.00 |  35.0% |     OK    |
++---------------+------------+------------+-----------+--------+-----------+
+
+
+==================================================
+                 BUDGET MANAGER
+==================================================
+  [1] Check Monthly Budget Status & Warnings
+  [2] Set / Update Total Monthly Budget
+  [3] Set / Update Category-Specific Budget
+  [4] View All Configured Budgets
+  [5] Delete a Month's Budget
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-5]: 
+=================================================================
+                             ALL CONFIGURED BUDGETS              
+=================================================================
++---------+----------------+--------------------------+
+|  Month  | Overall Budget | Category Budgets Defined |
++---------+----------------+--------------------------+
+| 2026-11 |     ₹30,000.00 |       5 categories       |
+| 2026-10 |     ₹24,000.00 |       5 categories       |
++---------+----------------+--------------------------+
+
+
+==================================================
+                 BUDGET MANAGER
+==================================================
+  [1] Check Monthly Budget Status & Warnings
+  [2] Set / Update Total Monthly Budget
+  [3] Set / Update Category-Specific Budget
+  [4] View All Configured Budgets
+  [5] Delete a Month's Budget
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-5]: 
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+            SPENDING REPORTS & ANALYTICS
+==================================================
+  [1] Monthly Spending Summary (Metrics & Chart)
+  [2] Month-over-Month Comparison
+  [3] All-Time Category Breakdown
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-3]: Enter month for summary (YYYY-MM) [default: 2026-11]: 
+=================================================================
+                     MONTHLY SPENDING REPORT: 2026-11            
+=================================================================
+
+  • Total Amount Spent    : ₹25,500.00
+  • Total Transactions    : 8
+  • Average per Expense   : ₹3,187.50
+  • Average Daily Spend   : ₹2,550.00 (based on 10 days elapsed in current month)
+  • Top Spending Category : Rent (₹12,000.00 - 47.1%)
+  • Lowest Category       : Transport (₹420.00)
+  • Largest Single Expense: ₹12,000.00 (November Apartment Rent on 2026-11-01)
+
+--- Category Breakdown ---
++-----------+-------------+------------+-------+-----------------+
+| Category  | Total Spent | % of Month | Count | Distribution    |
++-----------+-------------+------------+-------+-----------------+
+| Rent      |  ₹12,000.00 |      47.1% |   1   | ███████░░░░░░░░ |
+| Food      |   ₹5,300.00 |      20.8% |   2   | ███░░░░░░░░░░░░ |
+| Shopping  |   ₹3,800.00 |      14.9% |   1   | ██░░░░░░░░░░░░░ |
+| Bills     |   ₹1,550.00 |       6.1% |   1   | █░░░░░░░░░░░░░░ |
+| Other     |   ₹1,480.00 |       5.8% |   1   | █░░░░░░░░░░░░░░ |
+| Health    |     ₹950.00 |       3.7% |   1   | █░░░░░░░░░░░░░░ |
+| Transport |     ₹420.00 |       1.6% |   1   | ░░░░░░░░░░░░░░░ |
++-----------+-------------+------------+-------+-----------------+
+
+
+==================================================
+            SPENDING REPORTS & ANALYTICS
+==================================================
+  [1] Monthly Spending Summary (Metrics & Chart)
+  [2] Month-over-Month Comparison
+  [3] All-Time Category Breakdown
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-3]: 
+=================================================================
+                     MONTH-OVER-MONTH SPENDING COMPARISON        
+=================================================================
+
++---------+-------------+--------------+--------------+------------+
+|  Month  | Total Spent | Transactions | Top Category | MoM Change |
++---------+-------------+--------------+--------------+------------+
+| 2026-10 |  ₹26,150.00 |      9       | Rent         |   Baseline |
+| 2026-11 |  ₹25,500.00 |      8       | Rent         |      -2.5% |
++---------+-------------+--------------+--------------+------------+
+
+
+==================================================
+            SPENDING REPORTS & ANALYTICS
+==================================================
+  [1] Monthly Spending Summary (Metrics & Chart)
+  [2] Month-over-Month Comparison
+  [3] All-Time Category Breakdown
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-3]: 
+=================================================================
+                           ALL-TIME CATEGORY SPENDING            
+=================================================================
+
++---------------+----------------+---------+--------------+-----------------+
+| Category      | All-Time Spend | % Share | Transactions | Visual Share    |
++---------------+----------------+---------+--------------+-----------------+
+| Rent          |     ₹24,000.00 |   46.5% |      2       | ███████░░░░░░░░ |
+| Food          |     ₹11,520.00 |   22.3% |      4       | ███░░░░░░░░░░░░ |
+| Shopping      |      ₹6,200.00 |   12.0% |      2       | ██░░░░░░░░░░░░░ |
+| Bills         |      ₹4,880.00 |    9.4% |      3       | █░░░░░░░░░░░░░░ |
+| Health        |      ₹2,150.00 |    4.2% |      2       | █░░░░░░░░░░░░░░ |
+| Other         |      ₹1,480.00 |    2.9% |      1       | ░░░░░░░░░░░░░░░ |
+| Transport     |        ₹770.00 |    1.5% |      2       | ░░░░░░░░░░░░░░░ |
+| Entertainment |        ₹650.00 |    1.3% |      1       | ░░░░░░░░░░░░░░░ |
++---------------+----------------+---------+--------------+-----------------+
+ Total All-Time Expenses: 17 | Total Spent: ₹51,650.00
+
+
+==================================================
+            SPENDING REPORTS & ANALYTICS
+==================================================
+  [1] Monthly Spending Summary (Metrics & Chart)
+  [2] Month-over-Month Comparison
+  [3] All-Time Category Breakdown
+  [0] Return to Main Menu
+==================================================
+Enter choice [0-3]: 
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+              EXPORT TO CSV
+==================================================
+Enter destination filename or path [default: data/expenses_export.csv]: 
+[OK] Successfully exported 17 expenses to:
+     C:\Users\HEMA\.gemini\antigravity\scratch\expense-budget-tracker\data\expenses_export.csv
+
+Press Enter to return to menu...
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: 
+==================================================
+             CATEGORY MANAGEMENT
+==================================================
+Current Active Categories:
+   1. Bills
+   2. Entertainment
+   3. Food
+   4. Health
+   5. Other
+   6. Rent
+   7. Shopping
+   8. Transport
+
+  [1] Add New Custom Category
+  [0] Return to Main Menu
+Enter choice [0-1]: Enter new category name: :   [OK] Custom category 'Investments' added successfully!
+
+==================================================
+             CATEGORY MANAGEMENT
+==================================================
+Current Active Categories:
+   1. Bills
+   2. Entertainment
+   3. Food
+   4. Health
+   5. Investments (Custom)
+   6. Other
+   7. Rent
+   8. Shopping
+   9. Transport
+
+  [1] Add New Custom Category
+  [0] Return to Main Menu
+Enter choice [0-1]: 
+---------------------------------------------
+                 MAIN MENU
+---------------------------------------------
+  [1] Add New Expense
+  [2] View All Expenses
+  [3] Edit an Expense
+  [4] Delete an Expense
+  [5] Search & Filter Expenses
+  [6] Manage Budgets (Monthly & Category)
+  [7] Spending Reports & Analytics
+  [8] Export Expenses to CSV
+  [9] Manage Categories
+  [0] Exit Application
+---------------------------------------------
+Select an option [0-9]: Are you sure you want to exit? [Y/n]: 
+Thank you for using Personal Expense & Budget Tracker. Goodbye!
+

@@ -1,0 +1,18 @@
+ID,Date,Amount,Category,Description
+1,2026-10-02,12000.00,Rent,October Apartment Rent
+2,2026-10-04,1450.00,Bills,Electricity & Water Bill
+3,2026-10-07,820.00,Food,Weekly grocery shopping
+4,2026-10-12,350.00,Transport,Metro card recharge
+5,2026-10-15,2400.00,Shopping,Winter jacket from sale
+6,2026-10-18,650.00,Entertainment,Movie tickets with friends
+7,2026-10-22,1200.00,Health,Dental routine checkup
+8,2026-10-25,5400.00,Food,Family dinner at restaurant
+9,2026-10-29,1880.00,Bills,Broadband internet plan
+10,2026-11-01,12000.00,Rent,November Apartment Rent
+11,2026-11-02,1550.00,Bills,Electricity bill payment
+12,2026-11-04,2450.00,Food,Monthly pantry grocery refill
+13,2026-11-05,420.00,Transport,Cab ride to railway station
+14,2026-11-07,3800.00,Shopping,Ergonomic desk chair
+15,2026-11-08,950.00,Health,Vitamins & medical supplies
+16,2026-11-09,2850.00,Food,Weekend dining out
+17,2026-11-10,1480.00,Other,Annual cloud storage subscription

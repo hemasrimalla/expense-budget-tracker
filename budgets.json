@@ -1,0 +1,22 @@
+{
+  "2026-10": {
+    "total_budget": 24000.0,
+    "category_budgets": {
+      "Rent": 12000.0,
+      "Food": 6000.0,
+      "Bills": 3000.0,
+      "Shopping": 2000.0,
+      "Transport": 1000.0
+    }
+  },
+  "2026-11": {
+    "total_budget": 30000.0,
+    "category_budgets": {
+      "Rent": 12000.0,
+      "Food": 6000.0,
+      "Shopping": 3500.0,
+      "Bills": 2000.0,
+      "Transport": 1000.0
+    }
+  }
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "date": "2026-10-02",
+    "amount": 12000.0,
+    "category": "Rent",
+    "description": "October Apartment Rent"
+  },
+  {
+    "id": 2,
+    "date": "2026-10-04",
+    "amount": 1450.0,
+    "category": "Bills",
+    "description": "Electricity & Water Bill"
+  },
+  {
+    "id": 3,
+    "date": "2026-10-07",
+    "amount": 820.0,
+    "category": "Food",
+    "description": "Weekly grocery shopping"
+  },
+  {
+    "id": 4,
+    "date": "2026-10-12",
+    "amount": 350.0,
+    "category": "Transport",
+    "description": "Metro card recharge"
+  },
+  {
+    "id": 5,
+    "date": "2026-10-15",
+    "amount": 2400.0,
+    "category": "Shopping",
+    "description": "Winter jacket from sale"
+  },
+  {
+    "id": 6,
+    "date": "2026-10-18",
+    "amount": 650.0,
+    "category": "Entertainment",
+    "description": "Movie tickets with friends"
+  },
+  {
+    "id": 7,
+    "date": "2026-10-22",
+    "amount": 1200.0,
+    "category": "Health",
+    "description": "Dental routine checkup"
+  },
+  {
+    "id": 8,
+    "date": "2026-10-25",
+    "amount": 5400.0,
+    "category": "Food",
+    "description": "Family dinner at restaurant"
+  },
+  {
+    "id": 9,
+    "date": "2026-10-29",
+    "amount": 1880.0,
+    "category": "Bills",
+    "description": "Broadband internet plan"
+  },
+  {
+    "id": 10,
+    "date": "2026-11-01",
+    "amount": 12000.0,
+    "category": "Rent",
+    "description": "November Apartment Rent"
+  },
+  {
+    "id": 11,
+    "date": "2026-11-02",
+    "amount": 1550.0,
+    "category": "Bills",
+    "description": "Electricity bill payment"
+  },
+  {
+    "id": 12,
+    "date": "2026-11-04",
+    "amount": 2450.0,
+    "category": "Food",
+    "description": "Monthly pantry grocery refill"
+  },
+  {
+    "id": 13,
+    "date": "2026-11-05",
+    "amount": 420.0,
+    "category": "Transport",
+    "description": "Cab ride to railway station"
+  },
+  {
+    "id": 14,
+    "date": "2026-11-07",
+    "amount": 3800.0,
+    "category": "Shopping",
+    "description": "Ergonomic desk chair"
+  },
+  {
+    "id": 15,
+    "date": "2026-11-08",
+    "amount": 950.0,
+    "category": "Health",
+    "description": "Vitamins & medical supplies"
+  },
+  {
+    "id": 16,
+    "date": "2026-11-09",
+    "amount": 2850.0,
+    "category": "Food",
+    "description": "Weekend dining out"
+  },
+  {
+    "id": 17,
+    "date": "2026-11-10",
+    "amount": 1480.0,
+    "category": "Other",
+    "description": "Annual cloud storage subscription"
+  }
+]
